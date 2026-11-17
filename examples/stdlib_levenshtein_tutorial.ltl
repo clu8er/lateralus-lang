@@ -1,0 +1,7 @@
+import stdlib.levenshtein
+
+@test
+fn test_levenshtein_tutorial_vectors() {
+    let d1 = levenshtein.distance("kitten", "sitting")
+    assert(d1 == 3)
+}
